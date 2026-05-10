@@ -112,3 +112,11 @@ COGNISEC/
 ├── engine.py           # Detection engine & honeypot system
 ├── attacker.py         # Attack simulator CLI
 └── README.md
+```
+
+Installation Guide
+1. Clone the repository.
+```bash
+https://github.com/mohith12040/CogniSec.git
+```
+
