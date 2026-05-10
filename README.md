@@ -119,25 +119,21 @@ CogniSec/
 ```bash
 git clone https://github.com/mohith12040/CogniSec.git
 ```
-⸻
 
 ## 2. Move into the Project Directory
 ```bash
 cd CogniSec
 ```
-⸻
 
 ## 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
-⸻
 
 ## 4. Start the Flask Server
 ```bash
 python3 app.py
 ```
-⸻
 
 ## 5. Expected Output
 
@@ -153,15 +149,11 @@ You should see output similar to:
 ║  Attack CLI ->  python3 attacker.py                 ║
 ╚══════════════════════════════════════════════════════╝
 
-⸻
-
 ## 6. Open the Dashboard
 
 Open your browser and visit:
 
 http://localhost:5000
-
-⸻
 
 ## 7. Run the Attack Simulator
 
@@ -170,8 +162,6 @@ After starting the server, open a new terminal tab in the same project directory
 python3 attacker.py
 
 This will simulate multiple cyber attack patterns and display them live inside the CogniSec dashboard.
-
-⸻
 
 ## 🌐 Access Overview Pages
 
