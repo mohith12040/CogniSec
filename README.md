@@ -119,4 +119,31 @@ Installation Guide
 ```bash
 https://github.com/mohith12040/CogniSec.git
 ```
-
+2. Move into the project directory.
+```bash
+cd CogniSec
+```
+3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+4. Start the flask server
+```bash
+python3 app.py
+```
+5. You should see the ouput similar to:
+```bash
+╔══════════════════════════════════════════════════════╗
+║  COGNISEC — Cognitive Deception Engine               ║
+╠══════════════════════════════════════════════════════╣
+║  Overview   ->  http://localhost:5000/                ║
+║  Traffic    ->  http://localhost:5000/traffic         ║
+║  Honeypots  ->  http://localhost:5000/honeypots       ║
+║  Attackers  ->  http://localhost:5000/attackers       ║
+║  Attack CLI ->  python3 attacker.py                   ║
+╚══════════════════════════════════════════════════════╝
+```
+6. Open your browser and visit:
+```bash
+http://localhost:5000
+```
