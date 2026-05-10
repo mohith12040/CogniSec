@@ -114,40 +114,70 @@ CogniSec/
 └── README.md
 ```
 
-Installation Guide:
-1. Clone the repository.
+# ⚙️ Installation Guide
+## 1. Clone the Repository
 ```bash
-https://github.com/mohith12040/CogniSec.git
+git clone https://github.com/mohith12040/CogniSec.git
 ```
-2. Move into the project directory.
+⸻
+
+## 2. Move into the Project Directory
 ```bash
 cd CogniSec
 ```
-3. Install dependencies
+⸻
+
+## 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
-4. Start the flask server
+⸻
+
+## 4. Start the Flask Server
 ```bash
 python3 app.py
 ```
-5. You should see the ouput similar to:
-```bash
+⸻
+
+## 5. Expected Output
+
+You should see output similar to:
+
 ╔══════════════════════════════════════════════════════╗
-║  COGNISEC — Cognitive Deception Engine               ║
+║  COGNISEC — Cognitive Deception Engine              ║
 ╠══════════════════════════════════════════════════════╣
-║  Overview   ->  http://localhost:5000/                ║
-║  Traffic    ->  http://localhost:5000/traffic         ║
-║  Honeypots  ->  http://localhost:5000/honeypots       ║
-║  Attackers  ->  http://localhost:5000/attackers       ║
-║  Attack CLI ->  python3 attacker.py                   ║
+║  Overview   ->  http://localhost:5000/              ║
+║  Traffic    ->  http://localhost:5000/traffic       ║
+║  Honeypots  ->  http://localhost:5000/honeypots     ║
+║  Attackers  ->  http://localhost:5000/attackers     ║
+║  Attack CLI ->  python3 attacker.py                 ║
 ╚══════════════════════════════════════════════════════╝
-```
-6. Open your browser and visit:
-```bash
+
+⸻
+
+## 6. Open the Dashboard
+
+Open your browser and visit:
+
 http://localhost:5000
-```
-7. After starting the server, open a new tab in the same directory in the terminal and run the attacker.py CLI tool:
-```bash
+
+⸻
+
+## 7. Run the Attack Simulator
+
+After starting the server, open a new terminal tab in the same project directory and run:
+
 python3 attacker.py
-```
+
+This will simulate multiple cyber attack patterns and display them live inside the CogniSec dashboard.
+
+⸻
+
+## 🌐 Access Overview Pages
+
+You can access different dashboard sections using:
+
+http://localhost:5000/
+http://localhost:5000/traffic
+http://localhost:5000/honeypots
+http://localhost:5000/attackers
