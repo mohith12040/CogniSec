@@ -1,4 +1,4 @@
-# CogniSec
+# CogniSec: Cognitive Deception Network and Intrusion Manipulation System
 
 ## Intelligent Cyber Attack Simulation & Threat Detection Platform
 
