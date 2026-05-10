@@ -1,4 +1,4 @@
-# COGNISEC
+# CogniSec
 
 ## Intelligent Cyber Attack Simulation & Threat Detection Platform
 
