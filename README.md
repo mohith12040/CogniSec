@@ -114,7 +114,7 @@ COGNISEC/
 └── README.md
 ```
 
-Installation Guide
+Installation Guide:
 1. Clone the repository.
 ```bash
 https://github.com/mohith12040/CogniSec.git
@@ -146,4 +146,8 @@ python3 app.py
 6. Open your browser and visit:
 ```bash
 http://localhost:5000
+```
+7. After starting the server, open a new tab in the same directory in the terminal and run the attacker.py CLI tool:
+```bash
+python3 attacker.py
 ```
