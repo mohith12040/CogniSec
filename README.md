@@ -138,7 +138,7 @@ python3 app.py
 ## 5. Expected Output
 
 You should see output similar to:
-
+```bash
 ╔══════════════════════════════════════════════════════╗
 ║  COGNISEC — Cognitive Deception Engine              ║
 ╠══════════════════════════════════════════════════════╣
@@ -148,6 +148,7 @@ You should see output similar to:
 ║  Attackers  ->  http://localhost:5000/attackers     ║
 ║  Attack CLI ->  python3 attacker.py                 ║
 ╚══════════════════════════════════════════════════════╝
+```
 
 ## 6. Open the Dashboard
 
@@ -166,8 +167,9 @@ This will simulate multiple cyber attack patterns and display them live inside t
 ## 🌐 Access Overview Pages
 
 You can access different dashboard sections using:
-
+```bash
 http://localhost:5000/
 http://localhost:5000/traffic
 http://localhost:5000/honeypots
 http://localhost:5000/attackers
+```
