@@ -34,7 +34,7 @@ Simulates multiple real-world cyber attacks including:
 
 ## 🛡️ Threat Detection System
 
-COGNISEC includes:
+CogniSec includes:
 - Behavioral anomaly detection
 - Isolation Forest ML scoring
 - Suspicious traffic analysis
@@ -79,7 +79,7 @@ Interactive Flask-based cyber dashboard featuring:
 
 # 🧠 Machine Learning Integration
 
-COGNISEC uses:
+CogniSec uses:
 - Isolation Forest anomaly detection
 - Behavioral traffic analysis
 - Pattern deviation scoring
@@ -106,7 +106,7 @@ to identify suspicious activity automatically.
 # 📂 Project Structure
 
 ```bash
-COGNISEC/
+CogniSec/
 │
 ├── app.py              # Flask application & dashboard
 ├── engine.py           # Detection engine & honeypot system
